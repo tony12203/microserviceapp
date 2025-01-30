@@ -20,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11.9'  # You can specify the version here
+          python-version: '3.9'  # You can specify the version here
 
       - name: Install dependencies
         run: |
